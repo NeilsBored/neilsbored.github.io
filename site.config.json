@@ -1,0 +1,8 @@
+{
+  "name": "Shane John",
+  "username": "NeilsBored",
+  "tagline": "Software engineer exploring AI, graphics & automation.",
+  "about": "I'm a software engineer with a passion for building delightful experiences. I like using code to explore AI, computer graphics and automation. This site is built with plain HTML, CSS and JS and automatically pulls my latest GitHub repos.",
+  "email": "example@example.com",
+  "featured": ["HalfMonte_smol", "TigersEatz", "CPSC3750"]
+}

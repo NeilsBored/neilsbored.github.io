@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      A simple, modern portfolio template for GitHub Pages.
+
+      This page is intentionally kept lightweight: it uses a single
+      stylesheet for styling and a small script to load projects from
+      the GitHub API.  You can customize most of the content (name,
+      tagline, about text, email, featured projects) via the
+      accompanying site.config.json file.  See README.md for
+      instructions.
+    -->
+    <title>Portfolio</title>
+    <!-- Import a clean sans serif font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container hero">
+        <h1>Hi, I'm Shane</h1>
+        <p>I build things with code.</p>
+        <div class="buttons">
+          <a href="#projects" class="btn">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="projects">
+        <div class="container">
+          <h2>Featured Projects</h2>
+          <div class="projects-grid" id="projects-grid">
+            <!-- Cards populated by script.js -->
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I'm a software engineer with a passion for building delightful
+            experiences.  This site pulls my latest GitHub repositories to
+            showcase what I've been working on.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <p>Feel free to reach out if you'd like to collaborate or just say hello!</p>
+          <a href="mailto:example@example.com" class="btn" id="email-link">Email Me</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="year"></span> <span id="name"></span>. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
