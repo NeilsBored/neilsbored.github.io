@@ -45,6 +45,4 @@ or external tooling—everything is plain HTML, CSS and JavaScript.
 3. Push to the `main` branch.  GitHub will automatically build and
    deploy your site at `https://<username>.github.io`.
 
-That's it!  You now have a clean, modern portfolio that pulls your
-latest projects automatically.  Because it uses only client-side
-JavaScript, there are no server costs or maintenance to worry about.
+That's it!
