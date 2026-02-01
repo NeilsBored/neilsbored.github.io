@@ -157,7 +157,7 @@ section h2 {
 
 #contact a.btn {
   display: inline-block;
-  justify-content: center;
+  align-items: center;
 }
 
 /* Projects grid */
