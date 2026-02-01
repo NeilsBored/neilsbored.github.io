@@ -155,9 +155,16 @@ section h2 {
   text-align: center;
 }
 
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px; /* Ensures sufficient height for vertical centering */
+}
+
 #contact a.btn {
   display: inline-block;
-  align-items: center;
 }
 
 /* Projects grid */
@@ -228,4 +235,9 @@ footer {
   justify-content: center;
   gap: 1rem;
   min-height: 40vh;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #contact .container {
+    min-height: 300px; /* Reduced height for smaller screens */
+  }
 }
