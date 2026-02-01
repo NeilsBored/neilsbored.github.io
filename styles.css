@@ -219,3 +219,13 @@ footer {
   font-size: 0.875rem;
   color: var(--text-secondary);
 }
+
+/* Contact section: vertically center the content without affecting other sections */
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 40vh;
+}
